@@ -21,6 +21,7 @@ const DoctorRegistrationForm = () => {
     });
   };
 
+  
   const validate = () => {
     let tempErrors = {};
     tempErrors.firstName = formData.firstName ? "" : "First Name is required.";
